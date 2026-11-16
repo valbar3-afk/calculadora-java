@@ -25,5 +25,13 @@ public class Calculadora {
             );
         }
         return a / b;
+        }
+    // Calcula la potencia de una base elevada a un exponente
+    public double potencia(double base, double exponente) {
+        double resultado = 1;
+        for (int i = 0; i < exponente; i++) {
+            resultado = resultado * base;
+        }
+        return resultado;
     }
     }
