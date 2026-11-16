@@ -34,4 +34,9 @@ public class Calculadora {
         }
         return resultado;
     }
+        // Calcula el resto de la división entre dos números
+    public double modulo(double a, double b) {
+        return a % b;
+    }
+
     }
