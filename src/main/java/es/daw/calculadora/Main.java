@@ -24,5 +24,9 @@ public class Main {
         System.out.println(
             "División: " + calculadora.dividir(numero1, numero2)
         );
+                
+        System.out.println("Potencia: " + calculadora.potencia(numero1, numero2));
+        System.out.println("Módulo: " + calculadora.modulo(numero1, numero2));
+
     }
 }
