@@ -6,20 +6,16 @@ public class Calculadora {
     public double sumar(double a, double b) {
         return a + b;
     }
-}
-
 
     // Resta el segundo número al primero
     public double restar(double a, double b) {
         return a - b;
     }
 
-
     // Multiplica dos números
     public double multiplicar(double a, double b) {
         return a * b;
     }
-
 
     // Divide el primer número entre el segundo
     public double dividir(double a, double b) {
@@ -29,4 +25,5 @@ public class Calculadora {
             );
         }
         return a / b;
+    }
     }
